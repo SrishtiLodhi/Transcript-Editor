@@ -4,7 +4,7 @@ import "./App.css";
 
 const initialTranscript = [
   { word: 'Hello', start_time: 0, duration: 500 },
-  { word: 'world', start_time: 500, duration: 700 },
+  { word: 'world!', start_time: 500, duration: 700 },
   { word: 'This', start_time: 1200, duration: 300 },
   { word: 'is', start_time: 1500, duration: 200 },
   { word: 'a', start_time: 1700, duration: 100 },
@@ -19,8 +19,8 @@ const initialTranscript = [
 
 function App() {
   return (
-    <div className="App p-4">
-      <h1 className="text-2xl font-bold mb-4">Transcript Editor</h1>
+    <div className="App bg-black h-screen text-white">
+      <h1 className="text-2xl font-bold mb-4 pt-4 text-center">Transcript Editor</h1>
       <TranscriptEditor initialTranscript={initialTranscript} />
     </div>
   );
