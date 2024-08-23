@@ -1,5 +1,7 @@
 # Transcript Editor
 
+This is a user-friendly transcript editor using React and Tailwind CSS. The editor allows users to interact with a transcript, where each word has a specified start time and duration for playback.
+
 <h2>Getting Started</h2>
 
 <p>Follow these steps to run the app on your local machine:</p>
